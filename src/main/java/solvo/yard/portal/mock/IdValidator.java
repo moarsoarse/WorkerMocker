@@ -1,10 +1,12 @@
 package solvo.yard.portal.mock;
 
+import io.camunda.zeebe.spring.client.exception.ZeebeBpmnError;
+
 import java.util.UUID;
 
 public final class IdValidator {
 
-    public static void validate(String entity, UUID[] ids) throws Exception {
+    public static void validate(String entity, UUID[] ids) throws ZeebeBpmnError {
 
     }
 
